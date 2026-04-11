@@ -12,7 +12,8 @@ ________________________________________
 •	 Built with Python + Pandas + Plotly  
 ________________________________________
 📸 Example Output
-(Add your screenshot here later)
+![Dashboard Preview](Screenshots/Chart_1.png) 
+![Dashboard Preview](Screenshots/Chart_2.png)
 ________________________________________
 ▶️ How to Use
 1.	Upload your Excel or CSV file 
