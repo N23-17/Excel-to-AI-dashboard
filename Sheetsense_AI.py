@@ -170,10 +170,8 @@ def main():
     print("\n🎉 DONE!")
     print("Next steps:")
     print("1️⃣ Open dashboard.html")
+    print("🔒 AI insights export available in Pro version → https://imranntenje.gumroad.com/l/sheetsense-ai")
 
 
 if __name__ == "__main__":
     main()
-
-from google.colab import drive
-drive.mount('/content/drive')
