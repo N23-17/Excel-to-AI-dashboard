@@ -1,48 +1,63 @@
-🚀 Excel → AI Dashboard Tool
+# Excel to AI Dashboard
 
-Turn messy Excel or CSV files into interactive dashboards in seconds.  
-No complex setup.  
-No Excel expertise required.  
-________________________________________
-✨ Features
+Turn Excel or CSV files into an interactive HTML dashboard with Python, Pandas,
+and Plotly.
 
-•	 Automatic dashboard generation  
-•	 Basic data cleaning  
-•	 Fast and simple execution  
-•	 Built with Python + Pandas + Plotly  
-________________________________________
-📸 Example Output
-![Dashboard Preview](Screenshots/Chart_1.png) 
-![Dashboard Preview](Screenshots/Chart_2.png)
-________________________________________
-▶️ How to Use
-1.	Upload your Excel or CSV file 
-2.	Run the script 
-3.	Open the generated dashboard.html 
-________________________________________
-🔒 Want AI Insights?
+## Features
 
-The full version includes:
+- Load `.xlsx`, `.xlsm`, and `.csv` files
+- Clean empty rows and columns automatically
+- Detect date columns for trend charts
+- Generate category and numeric summaries
+- Export a standalone `dashboard.html` file
 
-•	AI-ready JSON export  
-•	Premium prompt pack  
-•	Faster workflow  
-👉 Get it here:
+## Example Output
+
+![Dashboard preview](Screenshots/Chart_1.png)
+![Dashboard preview](Screenshots/Chart_2.png)
+
+## Requirements
+
+- Python 3.8+
+- pandas
+- plotly
+- openpyxl
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the tool with the included sample workbook:
+
+```bash
+python Sheetsense_AI.py sample_data.xlsx
+```
+
+Choose a custom output path:
+
+```bash
+python Sheetsense_AI.py sample_data.xlsx --output Demo/dashboard.html
+```
+
+Choose an Excel sheet by name or index:
+
+```bash
+python Sheetsense_AI.py sample_data.xlsx --sheet 0
+```
+
+Open the generated HTML file in your browser to view the dashboard.
+
+## Want AI Insights?
+
+The full version includes AI-ready JSON export, a premium prompt pack, and a
+faster workflow:
+
 https://imranntenje.gumroad.com/l/sheetsense-ai
-________________________________________
-🧠 Use Cases
 
-•	Student assignments  
-•	Business reports  
-•	Data exploration  
-•	Quick visual insights  
-________________________________________
-⚙️ Requirements 
-•	Python 3.8+  
-•	pandas  
-•	plotly  
-•	openpyxl  
-________________________________________
-📬 Built by Imran 
+## Built By
 
-Building simple tools that turn complexity into clarity.
+Imran Ntenje - building simple tools that turn complexity into clarity.
